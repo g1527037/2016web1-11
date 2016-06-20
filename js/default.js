@@ -1,4 +1,12 @@
 
+var result=window.confirm('準備OK？');
+
+if(result){
+  document.getElementById('choice').textContent='OKが押されました';
+}else{
+  document.getElementById('choice').textContent='キャンセルだ';
+}
+
 document.getEle,emtById('choice').textContent=new Date();
 
 var number=Math.floor(Math.random()*3);
